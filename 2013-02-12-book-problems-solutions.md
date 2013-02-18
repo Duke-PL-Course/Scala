@@ -46,6 +46,22 @@
 
 * Use `foldLeft` to compute the total size of a list of strings.
 
+foldLeft:
+
+```scala
+(0 /: words) { _ + _.size }
+(0 /: words) { (sum, word) => sum + word.size }
+words.foldLeft(0)( _ + _.size )
+words.foldLeft(0) { (sum, word) => sum + word.size }
+```
+
+foldRight:
+```scala
+(words :\ 0) { _.size + _ }
+(words :\ 0) { (word, sum) => word.size + sum }
+words.foldRight(0)( _.size + _ )
+words.foldRight(0) { (word, sum) => word.size + sum }
+```
 
 * Write a Censor trait with a method that will replace the curse words Shoot and Darn with Pucky and Beans alternatives. Use a map to store the curse words and their alternatives.
 
