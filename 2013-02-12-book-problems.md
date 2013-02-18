@@ -10,6 +10,15 @@
 
 ## Day 2: Clipping Bushes and Other New Tricks
 
-* Use foldLeft to compute the total size of a list of strings.
+* Use `foldLeft` to compute the total size of a list of strings.
 * Write a Censor trait with a method that will replace the curse words Shoot and Darn with Pucky and Beans alternatives. Use a map to store the curse words and their alternatives.
 * Load the curse words and alternatives from a file.
+
+---
+
+## Day 3: Day 3: Cutting Through the Fluff
+
+### Do
+
+* Take the sizer application and add a message to count the number of links on the page.
+* Bonus problem: Make the sizer follow the links on a given page, and load them as well. For example, a sizer for “google.com” would compute the size for Google and all of the pages it links to.
