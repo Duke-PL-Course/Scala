@@ -16,7 +16,7 @@
 
 ---
 
-## Day 3: Day 3: Cutting Through the Fluff
+## Day 3: Cutting Through the Fluff
 
 ### Do
 
